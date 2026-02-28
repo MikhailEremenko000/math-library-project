@@ -2,6 +2,7 @@
 //основная часть программы
 namespace MathLibrary
 {
+    // Интерфейсы для каждой функциональной группы
     public interface IBasicOperations
     {
         double Add(double a, double b);
@@ -21,12 +22,19 @@ namespace MathLibrary
     {
         bool SolveQuadratic(double a, double b, double c, out double? x1, out double? x2);
     }
+
+    public interface IExtraMathFunctions
+    {
+        double CalculateCircleArea(double radius);
+        double CelsiusToFahrenheit(double celsius);
+        double FahrenheitToCelsius(double fahrenheit);
+        double CalculateHypotenuse(double sideA, double sideB);
+    }
+
     public class BasicOperations : IBasicOperations
     {
         public double Add(double a, double b) => a + b;
-
         public double Subtract(double a, double b) => a - b;
-
         public double Multiply(double a, double b) => a * b;
 
         public double Divide(double a, double b)
@@ -70,7 +78,7 @@ namespace MathLibrary
                 throw new ArgumentOutOfRangeException(nameof(n), "Факториал отрицательного числа не определен.");
             }
 
-            if (n > 50)
+            if (n > 20)
             {
                 throw new ArgumentOutOfRangeException(nameof(n), "Факториал слишком велик для типа long.");
             }
@@ -86,7 +94,6 @@ namespace MathLibrary
             return result;
         }
     }
-
     public class EquationSolver : IEquationSolver
     {
         private const double Epsilon = 1e-10;
@@ -123,44 +130,46 @@ namespace MathLibrary
             return true;
         }
     }
-    public static class MathFunctions
+
+    public class ExtraMathFunctions : IExtraMathFunctions
     {
-        public static double Power(double baseNum, int exponent)
+        private const double Pi = Math.PI;
+
+        public double CalculateCircleArea(double radius)
         {
-            if (exponent == 0) return 1;
-
-            double result = 1;
-            int absExponent = Math.Abs(exponent);
-
-            for (int i = 0; i < absExponent; i++)
+            if (radius < 0)
             {
-                result *= baseNum;
+                throw new ArgumentException("Радиус не может быть отрицательным.", nameof(radius));
             }
-
-            return exponent > 0 ? result : 1 / result;
+            return Pi * radius * radius;
         }
 
-        public static long Factorial(int n)
+        public double CelsiusToFahrenheit(double celsius)
         {
-            if (n < 0)
-                throw new ArgumentException("Факториал отрицательного числа не определен");
+            return (celsius * 9 / 5) + 32;
+        }
 
-            if (n > 20)
-                throw new ArgumentException("Слишком большое число для вычисления факториала (макс. 20)");
+        public double FahrenheitToCelsius(double fahrenheit)
+        {
+            return (fahrenheit - 32) * 5 / 9;
+        }
 
-            long result = 1;
-            for (int i = 2; i <= n; i++)
+        public double CalculateHypotenuse(double sideA, double sideB)
+        {
+            if (sideA < 0 || sideB < 0)
             {
-                result *= i;
+                throw new ArgumentException("Длины сторон не могут быть отрицательными.");
             }
-            return result;
+            return Math.Sqrt(sideA * sideA + sideB * sideB);
         }
     }
-        public static class Calculator
+
+    public static class Calculator
     {
         private static readonly BasicOperations Basic = new BasicOperations();
         private static readonly AdvancedOperations Advanced = new AdvancedOperations();
         private static readonly EquationSolver Solver = new EquationSolver();
+        private static readonly ExtraMathFunctions Extra = new ExtraMathFunctions(); // НОВОЕ
 
         public static double Add(double a, double b) => Basic.Add(a, b);
         public static double Subtract(double a, double b) => Basic.Subtract(a, b);
@@ -171,5 +180,10 @@ namespace MathLibrary
         public static long Factorial(int n) => Advanced.Factorial(n);
         public static bool SolveQuadratic(double a, double b, double c, out double? x1, out double? x2)
             => Solver.SolveQuadratic(a, b, c, out x1, out x2);
+
+        public static double CalculateCircleArea(double radius) => Extra.CalculateCircleArea(radius);
+        public static double CelsiusToFahrenheit(double celsius) => Extra.CelsiusToFahrenheit(celsius);
+        public static double FahrenheitToCelsius(double fahrenheit) => Extra.FahrenheitToCelsius(fahrenheit);
+        public static double CalculateHypotenuse(double sideA, double sideB) => Extra.CalculateHypotenuse(sideA, sideB);
     }
 }
