@@ -1,0 +1,11 @@
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\MathLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\MathLibrary1.AssemblyInfoInputs.cache
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\MathLibrary1.AssemblyInfo.cs
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\MathLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\bin\Debug\net10.0\MathLibrary1.deps.json
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\bin\Debug\net10.0\MathLibrary1.dll
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\bin\Debug\net10.0\MathLibrary1.pdb
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\MathLibrary1.dll
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\refint\MathLibrary1.dll
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\MathLibrary1.pdb
+C:\Users\micai\source\repos\MathLibrary1\MathLibrary1\obj\Debug\net10.0\ref\MathLibrary1.dll
