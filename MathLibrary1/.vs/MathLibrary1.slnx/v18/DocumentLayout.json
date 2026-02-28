@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{5A684773-660A-99B2-D37D-FB35B9B3F76D}|MathLibrary1\\MathLibrary1.csproj|solutionrelative:mathlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5A684773-660A-99B2-D37D-FB35B9B3F76D}|MathLibrary1\\MathLibrary1.csproj|c:\\users\\micai\\onedrive\\desktop\\mathlibraryproject\\mathlibrary1\\mathlibrary1\\mathlibrary1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A684773-660A-99B2-D37D-FB35B9B3F76D}|MathLibrary1\\MathLibrary1.csproj|solutionrelative:mathlibrary1\\mathlibrary1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{192DED74-6CA5-4FA0-9F9C-AACF8C522344}|Math\\Math.csproj|c:\\users\\micai\\onedrive\\desktop\\mathlibraryproject\\mathlibrary1\\math\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{192DED74-6CA5-4FA0-9F9C-AACF8C522344}|Math\\Math.csproj|solutionrelative:math\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{192DED74-6CA5-4FA0-9F9C-AACF8C522344}|Math\\Math.csproj|c:\\users\\micai\\onedrive\\desktop\\mathlibraryproject\\mathlibrary1\\math\\math.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{192DED74-6CA5-4FA0-9F9C-AACF8C522344}|Math\\Math.csproj|solutionrelative:math\\math.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59A1A67D-9E5A-39D0-75D0-0A267E52E852}|MathLibrary1.Client\\MathLibrary1.Client.csproj|c:\\users\\micai\\onedrive\\desktop\\mathlibraryproject\\mathlibrary1\\mathlibrary1.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59A1A67D-9E5A-39D0-75D0-0A267E52E852}|MathLibrary1.Client\\MathLibrary1.Client.csproj|solutionrelative:mathlibrary1.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MathLibrary1",
+              "DocumentMoniker": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj",
+              "RelativeDocumentMoniker": "MathLibrary1\\MathLibrary1.csproj",
+              "ToolTip": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj",
+              "RelativeToolTip": "MathLibrary1\\MathLibrary1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T09:49:05.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Math",
+              "DocumentMoniker": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\Math\\Math.csproj",
+              "RelativeDocumentMoniker": "Math\\Math.csproj",
+              "ToolTip": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\Math\\Math.csproj",
+              "RelativeToolTip": "Math\\Math.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T09:37:39.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\Math\\Program.cs",
+              "RelativeDocumentMoniker": "Math\\Program.cs",
+              "ToolTip": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\Math\\Program.cs",
+              "RelativeToolTip": "Math\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T09:36:45.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1.Client\\Program.cs",
               "RelativeDocumentMoniker": "MathLibrary1.Client\\Program.cs",
@@ -30,8 +81,7 @@
               "RelativeToolTip": "MathLibrary1.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T08:02:55.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T08:02:55.809Z"
             },
             {
               "$type": "Document",
@@ -41,7 +91,7 @@
               "RelativeDocumentMoniker": "MathLibrary1\\Class1.cs",
               "ToolTip": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\Class1.cs",
               "RelativeToolTip": "MathLibrary1\\Class1.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwEIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowIYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T07:48:19.66Z",
               "EditorCaption": ""

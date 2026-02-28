@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Math/Math.csproj" Id="192ded74-6ca5-4fa0-9f9c-aacf8c522344" />
   <Project Path="MathLibrary1.Client/MathLibrary1.Client.csproj" />
   <Project Path="MathLibrary1/MathLibrary1.csproj" />
 </Solution>

@@ -123,8 +123,40 @@ namespace MathLibrary
             return true;
         }
     }
+    public static class MathFunctions
+    {
+        public static double Power(double baseNum, int exponent)
+        {
+            if (exponent == 0) return 1;
 
-    public static class Calculator
+            double result = 1;
+            int absExponent = Math.Abs(exponent);
+
+            for (int i = 0; i < absExponent; i++)
+            {
+                result *= baseNum;
+            }
+
+            return exponent > 0 ? result : 1 / result;
+        }
+
+        public static long Factorial(int n)
+        {
+            if (n < 0)
+                throw new ArgumentException("Факториал отрицательного числа не определен");
+
+            if (n > 20)
+                throw new ArgumentException("Слишком большое число для вычисления факториала (макс. 20)");
+
+            long result = 1;
+            for (int i = 2; i <= n; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+    }
+        public static class Calculator
     {
         private static readonly BasicOperations Basic = new BasicOperations();
         private static readonly AdvancedOperations Advanced = new AdvancedOperations();
