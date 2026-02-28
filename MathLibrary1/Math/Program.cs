@@ -1,5 +1,6 @@
 ﻿using System;
 using MathLibrary1;
+//тестовая часть программы
 
 namespace Math
 {

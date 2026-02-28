@@ -1,5 +1,5 @@
 ﻿using System;
-
+//основная часть программы
 namespace MathLibrary
 {
     public interface IBasicOperations

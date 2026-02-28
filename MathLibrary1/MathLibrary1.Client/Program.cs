@@ -1,5 +1,4 @@
-﻿using MathLibrary;
-
+﻿using MathLibrary; //клиентская часть программы
 namespace MathLibrary1
 {
     internal class Program
