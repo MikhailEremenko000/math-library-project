@@ -70,7 +70,7 @@ namespace MathLibrary
                 throw new ArgumentOutOfRangeException(nameof(n), "Факториал отрицательного числа не определен.");
             }
 
-            if (n > 20)
+            if (n > 50)
             {
                 throw new ArgumentOutOfRangeException(nameof(n), "Факториал слишком велик для типа long.");
             }

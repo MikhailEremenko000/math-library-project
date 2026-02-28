@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micai\\source\\repos\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj": {}
+    "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micai\\source\\repos\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj": {
+    "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micai\\source\\repos\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj",
         "projectName": "MathLibrary1",
-        "projectPath": "C:\\Users\\micai\\source\\repos\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj",
+        "projectPath": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\MathLibrary1.csproj",
         "packagesPath": "C:\\Users\\micai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micai\\source\\repos\\MathLibrary1\\MathLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\micai\\OneDrive\\Desktop\\MathLibraryProject\\MathLibrary1\\MathLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
